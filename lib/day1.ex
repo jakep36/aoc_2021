@@ -11,7 +11,6 @@ defmodule AOC.Day1 do
     #   260
     #   263/
     s = File.read!(Path.expand("./input/day1_part_a.txt"))
-    IO.puts(s)
     part_a_calc(s)
   end
 
